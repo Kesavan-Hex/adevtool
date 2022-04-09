@@ -164,6 +164,10 @@ filters:
       - product/app/VoiceAccessPrebuilt/VoiceAccessPrebuilt.apk
       - product/etc/permissions/com.google.android.odad.xml
 
+      # Beta
+      - system_ext/priv-app/YadaYada/YadaYada.apk
+      - product/priv-app/BetaFeedback/BetaFeedback.apk
+
     prefix:
       # (Live) wallpapers
       - product/app/WallpapersBReel
@@ -191,6 +195,9 @@ filters:
 
       # P19: face unlock debugging
       - android:string-array/config_restrictedImagesServices
+
+      # Cast volume adjustment
+      - android:bool/config_volumeAdjustmentForRemoteGroupSessions
 
       # Misc
       - android:bool/config_enableGeolocationTimeZoneDetection
